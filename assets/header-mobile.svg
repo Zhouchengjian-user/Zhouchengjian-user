@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="510" viewBox="0 0 640 510" role="img" aria-labelledby="title desc">
+  <title id="title">Chengjian Zhou · AI 产品经理</title>
+  <desc id="desc">周承健，独立开发者。让 AI 能力，变成真正可用的产品。</desc>
+  <defs>
+    <radialGradient id="bg" cx="90%" cy="23%" r="80%"><stop stop-color="#352017"/><stop offset="1" stop-color="#100F0E"/></radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".78" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+    <clipPath id="frame"><rect x="1" y="1" width="638" height="508" rx="24"/></clipPath>
+  </defs>
+  <style>
+    /* finesse · register=brand · A=graphite+signal-orange · B=bold-sans/native-body · C=featured-work+disclosure-rows
+     * D=CSS-SVG-scan · E=signal-instrument · SOUL=8 SPECTACLE=4 DENSITY=4 */
+    :root{--ink:#F5F0EB;--muted:#BBAFA5;--accent:#FF784F;--font:Arial,'PingFang SC','Microsoft YaHei',sans-serif}
+    text{font-family:var(--font);fill:var(--ink)}.muted{fill:var(--muted)}.accent{fill:var(--accent)}
+    .scan{transform-origin:539px 135px;animation:scan 4.8s linear 1 forwards}
+    @keyframes scan{from{transform:rotate(-35deg)}to{transform:rotate(73deg)}}
+    @media(prefers-reduced-motion:reduce){.scan{animation:none;transform:rotate(-35deg)}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="640" height="510" fill="url(#bg)"/>
+    <rect width="640" height="510" filter="url(#grain)" opacity=".028"/>
+    <g fill="none" stroke="#FF784F" stroke-opacity=".23"><circle cx="539" cy="135" r="130"/><circle cx="539" cy="135" r="93"/><circle cx="539" cy="135" r="57"/><g class="scan"><path d="M539 135H669"/><circle cx="632" cy="135" r="5" fill="#FF784F"/></g></g>
+    <circle cx="38" cy="49" r="5" fill="#FF784F"/>
+    <text x="54" y="58" font-size="25" class="muted">AI 产品经理 / 独立开发者</text>
+    <text x="31" y="159" font-size="67" font-weight="800" letter-spacing="-3">Chengjian</text>
+    <text x="31" y="232" font-size="67" font-weight="800" letter-spacing="-3">Zhou<tspan class="accent">.</tspan></text>
+    <text x="36" y="313" font-size="32" font-weight="600">让 AI 能力，</text>
+    <text x="36" y="360" font-size="32" font-weight="600">变成真正可用的产品。</text>
+    <text x="36" y="405" font-size="25" class="muted">从需求洞察到产品落地</text>
+    <path d="M36 443H604" stroke="#F5F0EB" stroke-opacity=".14"/>
+    <text x="36" y="480" font-size="22" class="muted">多模态检索 · AI 内容生产 · 实时交互</text>
+  </g>
+  <rect x="1" y="1" width="638" height="508" rx="24" stroke="#F5F0EB" stroke-opacity=".15" fill="none"/>
+</svg>

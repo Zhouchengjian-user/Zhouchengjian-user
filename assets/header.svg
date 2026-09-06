@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">Chengjian Zhou · AI Product Manager</title>
+  <desc id="desc">周承健，AI 产品经理与独立开发者。让 AI 能力，变成真正可用的产品。深色背景、橙色信号环与缓慢扫描动效。</desc>
+  <defs>
+    <radialGradient id="depth" cx="82%" cy="49%" r="62%"><stop stop-color="#352017"/><stop offset=".6" stop-color="#171311"/><stop offset="1" stop-color="#100F0E"/></radialGradient>
+    <linearGradient id="edge" x2="1" y2="1"><stop stop-color="#F7EAE0" stop-opacity=".25"/><stop offset=".48" stop-color="#F7EAE0" stop-opacity=".08"/><stop offset="1" stop-color="#FF784F" stop-opacity=".32"/></linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".78" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="438" rx="24"/></clipPath>
+  </defs>
+  <style>
+    /* finesse · register=brand · A=graphite+signal-orange · B=bold-sans/native-body · C=featured-work+disclosure-rows
+     * D=CSS-SVG-scan · E=signal-instrument · SOUL=8 SPECTACLE=4 DENSITY=4 */
+    :root{--ink:#F5F0EB;--muted:#BBAFA5;--accent:#FF784F;--font:Arial,'PingFang SC','Microsoft YaHei',sans-serif}
+    text{font-family:var(--font);fill:var(--ink)}
+    .secondary{fill:var(--muted)} .signal{fill:var(--accent)}
+    .sweep{transform-origin:939px 219px;animation:scan 4.8s linear 1 forwards}
+    .beacon{animation:beacon 4s ease-in-out 1}
+    @keyframes scan{from{transform:rotate(-35deg)}to{transform:rotate(73deg)}}
+    @keyframes beacon{0%,100%{opacity:.48}50%{opacity:1}}
+    @media(prefers-reduced-motion:reduce){.sweep{animation:none;transform:rotate(-35deg)}.beacon{animation:none;opacity:.85}}
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="440" fill="url(#depth)"/>
+    <rect width="1200" height="440" filter="url(#grain)" opacity=".028"/>
+    <path d="M739 0V440M0 364H1200" stroke="#F7EAE0" stroke-opacity=".08"/>
+    <g fill="none" stroke="#FF784F">
+      <circle cx="939" cy="219" r="177" stroke-opacity=".13"/>
+      <circle cx="939" cy="219" r="137" stroke-opacity=".29"/>
+      <circle cx="939" cy="219" r="94" stroke-opacity=".12"/>
+      <path d="M739 219H1145M939 21V415" stroke-opacity=".11"/>
+      <circle cx="939" cy="219" r="166" stroke-opacity=".2" stroke-dasharray="1 13"/>
+      <g class="sweep"><path d="M939 219L1096 219" stroke-width="1.5" stroke-opacity=".55"/><circle cx="1076" cy="219" r="5" fill="#FF784F" stroke="none"/><path d="M1076 219A137 137 0 0 0 1058 151" stroke-width="4" stroke-opacity=".7"/></g>
+    </g>
+    <circle class="beacon" cx="851" cy="113" r="5" fill="#FF784F"/>
+    <circle cx="1048" cy="298" r="3" fill="#FF784F" opacity=".55"/>
+    <text x="939" y="255" text-anchor="middle" font-size="114" font-weight="800" letter-spacing="-10" class="signal">CZ</text>
+    <rect x="52" y="46" width="8" height="8" rx="4" fill="#FF784F"/>
+    <text x="74" y="59" font-size="21" class="secondary">AI 产品经理 / 独立开发者</text>
+    <text x="49" y="151" font-size="70" font-weight="800" letter-spacing="-3">Chengjian</text>
+    <text x="49" y="225" font-size="70" font-weight="800" letter-spacing="-3">Zhou<tspan class="signal">.</tspan></text>
+    <text x="53" y="292" font-size="27" font-weight="600">让 AI 能力，变成真正可用的产品。</text>
+    <text x="53" y="328" font-size="18" class="secondary">从需求洞察到产品落地</text>
+    <text x="53" y="409" font-size="17" class="secondary">多模态检索 · AI 内容生产 · 实时交互</text>
+    <text x="1138" y="409" text-anchor="end" font-size="15" class="secondary">BUILD. TEST. ITERATE.</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="438" rx="24" stroke="url(#edge)" fill="none"/>
+</svg>
