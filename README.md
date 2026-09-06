@@ -17,11 +17,11 @@
 
 **海量内容，一搜即见。** 面向短剧、短视频与设计团队，让素材查找从“翻文件”变成“找镜头、找画面、找段落”。
 
-<a href="https://github.com/Zhouchengjian-user/Zhouchengjian-user/blob/main/assets/suojian-demo.mp4">
+<a href="https://zhouchengjian-user.github.io/personal-homepage/#suojianVideo">
   <img src="./assets/suojian-search.png" width="100%" alt="索见功能演示：输入暖色日落，同时呈现视频镜头、图片与命中的文档段落。点击观看 40 秒宣传视频。">
 </a>
 
-[▶ 观看 40 秒演示](https://github.com/Zhouchengjian-user/Zhouchengjian-user/blob/main/assets/suojian-demo.mp4)
+[▶ 观看 40 秒演示](https://zhouchengjian-user.github.io/personal-homepage/#suojianVideo) · [下载视频](https://github.com/Zhouchengjian-user/Zhouchengjian-user/raw/refs/heads/main/assets/suojian-demo.mp4)
 
 - **产品设计**：统一文字、参考图和视频片段搜索入口，视频按镜头返回，文档按命中段落展示上下文。
 - **能力落地**：融合 WeMM 语义向量、语音转写与 OCR，让画面和文字都参与检索。
