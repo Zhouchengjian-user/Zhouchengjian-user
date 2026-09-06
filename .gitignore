@@ -1,0 +1,5 @@
+.DS_Store
+.finesse/
+.local-review/
+.profile-preview.html
+node_modules/
